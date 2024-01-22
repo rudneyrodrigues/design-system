@@ -1,5 +1,5 @@
 {
-  "name": "@orion-ui/tokens",
+  "name": "@orion-ui/react",
   "version": "1.0.0",
   "description": "",
   "main": "./dist/index.js",
@@ -13,6 +13,7 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@orion-ui/tokens": "*",
     "tsup": "^8.0.1",
     "typescript": "^5.3.3"
   }
