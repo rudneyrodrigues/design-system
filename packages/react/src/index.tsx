@@ -1,5 +1,15 @@
-import { colors } from '@orion-ui/tokens'
+import { styled } from './styles'
+
+const Button = styled('button', {
+  backgroundColor: '$primary300',
+  color: '$zinc50',
+  borderRadius: '$full',
+  padding: '$4',
+  '&:hover': {
+    backgroundColor: '$primary500',
+  },
+})
 
 export function App() {
-  return <h1 style={{ color: colors.primary300 }}>Olá mundo</h1>
+  return <Button>Olá mundo</Button>
 }
