@@ -130,6 +130,7 @@ var Button = styled("button", {
   borderRadius: "$sm",
   border: "none",
   fontWeight: "$bold",
+  fontFamily: "$default",
   "&:hover": {
     backgroundColor: "$primary500"
   },
