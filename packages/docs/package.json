@@ -13,10 +13,11 @@
     "build-storybook": "storybook build"
   },
   "dependencies": {
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
     "@orion-ui/react": "*",
-    "@orion-ui/tokens": "*"
+    "@orion-ui/tokens": "*",
+    "polished": "^4.2.2",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
   },
   "devDependencies": {
     "@orion-ui/eslint-config": "*",
@@ -25,9 +26,11 @@
     "@storybook/addon-links": "^7.6.10",
     "@storybook/addon-onboarding": "^1.0.11",
     "@storybook/blocks": "^7.6.10",
+    "@storybook/manager-api": "^7.6.10",
     "@storybook/react": "^7.6.10",
     "@storybook/react-vite": "^7.6.10",
     "@storybook/test": "^7.6.10",
+    "@storybook/theming": "^7.6.10",
     "@types/react": "^18.2.43",
     "@types/react-dom": "^18.2.17",
     "@typescript-eslint/eslint-plugin": "^6.14.0",

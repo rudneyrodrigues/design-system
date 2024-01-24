@@ -1,4 +1,9 @@
 export const colors = {
+  primary300: '#996DFF',
+  primary500: '#8257E5',
+  primary700: '#633BBC',
+  primary900: '#271A45',
+
   white: '#FFFFFF',
   black: '#000000',
 
@@ -13,9 +18,4 @@ export const colors = {
   zinc800: '#202024',
   zinc900: '#121214',
   zinc950: '#09090A',
-
-  primary300: '#996DFF',
-  primary500: '#8257E5',
-  primary700: '#633BBC',
-  primary900: '#271A45',
 }

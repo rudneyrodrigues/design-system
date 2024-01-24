@@ -35,6 +35,10 @@ declare const Button: _stitches_react_types_styled_component.StyledComponent<"bu
         80: string;
     };
     colors: {
+        primary300: string;
+        primary500: string;
+        primary700: string;
+        primary900: string;
         white: string;
         black: string;
         zinc50: string;
@@ -48,10 +52,6 @@ declare const Button: _stitches_react_types_styled_component.StyledComponent<"bu
         zinc800: string;
         zinc900: string;
         zinc950: string;
-        primary300: string;
-        primary500: string;
-        primary700: string;
-        primary900: string;
     };
     fontSizes: {
         xxs: string;
