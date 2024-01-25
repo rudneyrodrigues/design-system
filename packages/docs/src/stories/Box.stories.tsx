@@ -1,27 +1,29 @@
-import { Box, type BoxProps } from '@orion-ui/react'
+import { Box, Text, type BoxProps } from '@orion-ui/react'
 import type { Meta, StoryObj } from '@storybook/react'
 
 export default {
-  title: 'Box',
+  title: 'Layout/Box',
   component: Box,
+
   args: {
-    children: (
-      <>
-        <span style={{ color: '#fff' }}>Testando o componente de Box</span>
-      </>
-    ),
+    children: <Text>Testando o componente de Box</Text>,
   },
+
   argTypes: {
     css: {
-      control: {
+      table: {
         disable: true,
       },
     },
     children: {
-      control: {
+      table: {
         disable: true,
       },
     },
+  },
+
+  parameters: {
+    layout: 'centered',
   },
 } as Meta<BoxProps>
 
@@ -30,7 +32,10 @@ export const Primary: StoryObj<BoxProps> = {
     css: {
       width: '30rem',
       height: '20rem',
-      margin: '0 auto',
+
+      display: 'flex',
+      alignItems: 'center',
+      justifyContent: 'center',
 
       '&:hover': {
         backgroundColor: '$zinc800',
