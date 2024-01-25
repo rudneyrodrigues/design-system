@@ -1,7 +1,7 @@
 import { Text, type TextProps } from '@orion-ui/react'
 import type { Meta, StoryObj } from '@storybook/react'
 
-export default {
+const meta: Meta<typeof Text> = {
   title: 'Typography/Text',
   component: Text,
 
@@ -47,7 +47,9 @@ export default {
   parameters: {
     layout: 'centered',
   },
-} as Meta<TextProps>
+}
+
+export default meta
 
 export const Primary: StoryObj<TextProps> = {
   args: {

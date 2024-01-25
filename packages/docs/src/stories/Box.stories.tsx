@@ -1,7 +1,7 @@
 import { Box, Text, type BoxProps } from '@orion-ui/react'
 import type { Meta, StoryObj } from '@storybook/react'
 
-export default {
+const meta: Meta<typeof Box> = {
   title: 'Layout/Box',
   component: Box,
 
@@ -25,7 +25,9 @@ export default {
   parameters: {
     layout: 'centered',
   },
-} as Meta<BoxProps>
+}
+
+export default meta
 
 export const Primary: StoryObj<BoxProps> = {
   args: {
