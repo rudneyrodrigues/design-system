@@ -13,13 +13,13 @@ const meta: Meta<typeof Heading> = {
     size: {
       options: ['sm', 'md', 'lg', 'xl', '2xl', '4xl', '5xl', '6xl'],
       control: {
-        type: 'select',
+        type: 'inline-radio',
       },
     },
     weight: {
       options: ['regular', 'medium', 'bold'],
       control: {
-        type: 'select',
+        type: 'inline-radio',
       },
     },
     css: {

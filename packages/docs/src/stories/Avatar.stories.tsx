@@ -15,7 +15,7 @@ const meta: Meta<typeof Avatar> = {
     size: {
       options: ['sm', 'md', 'lg'],
       control: {
-        type: 'select',
+        type: 'inline-radio',
       },
     },
     src: {

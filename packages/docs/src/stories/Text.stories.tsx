@@ -28,13 +28,13 @@ const meta: Meta<typeof Text> = {
         '9xl',
       ],
       control: {
-        type: 'select',
+        type: 'inline-radio',
       },
     },
     weight: {
       options: ['regular', 'medium', 'bold'],
       control: {
-        type: 'select',
+        type: 'inline-radio',
       },
     },
     css: {
