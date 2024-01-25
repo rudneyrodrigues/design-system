@@ -46,9 +46,6 @@ export default {
 
   parameters: {
     layout: 'centered',
-    controls: {
-      hideNoControlsWarning: true,
-    },
   },
 } as Meta<TextProps>
 
