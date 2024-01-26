@@ -40,7 +40,7 @@ export const Primary: StoryObj<BoxProps> = {
       justifyContent: 'center',
 
       '&:hover': {
-        backgroundColor: '$zinc800',
+        backgroundColor: '$zinc700',
       },
     },
   },
