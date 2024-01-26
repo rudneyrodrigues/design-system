@@ -1,8 +1,8 @@
 import type * as Stitches from '@stitches/react'
 
-import { styled } from '../styles'
+import { styled } from '../../styles'
 
-export const Button = styled('button', {
+export const Container = styled('button', {
   all: 'unset', // Retira todas as propriedades do botão
 
   minWidth: 120,
@@ -19,7 +19,7 @@ export const Button = styled('button', {
 
   cursor: 'pointer',
 
-  transition: 'all 0.2s ease',
+  transition: 'all 0.2s ease-in-out',
 
   svg: {
     width: '$4',
@@ -53,10 +53,14 @@ export const Button = styled('button', {
     variant: {
       primary: {
         color: '$white',
-        backgroundColor: '$primary500',
+        backgroundColor: '$primary300',
 
         '&:not(:disabled):hover': {
-          backgroundColor: '$primary300',
+          backgroundColor: '$primary500',
+        },
+
+        '&:not(:disabled):focus': {
+          boxShadow: '0 0 0 2px $colors$primary700',
         },
       },
 
@@ -67,6 +71,10 @@ export const Button = styled('button', {
         '&:not(:disabled):hover': {
           backgroundColor: '$zinc700',
         },
+
+        '&:not(:disabled):focus': {
+          boxShadow: '0 0 0 2px $colors$primary700',
+        },
       },
 
       ghost: {
@@ -75,6 +83,10 @@ export const Button = styled('button', {
 
         '&:not(:disabled):hover': {
           backgroundColor: '$zinc800',
+        },
+
+        '&:not(:disabled):focus': {
+          boxShadow: '0 0 0 2px $colors$primary700',
         },
       },
 
@@ -87,6 +99,10 @@ export const Button = styled('button', {
           color: '$white',
           backgroundColor: '$primary500',
         },
+
+        '&:not(:disabled):focus': {
+          boxShadow: '0 0 0 2px $colors$primary700',
+        },
       },
     },
   },
@@ -97,4 +113,4 @@ export const Button = styled('button', {
   },
 })
 
-export type ButtonProps = Stitches.ComponentProps<typeof Button>
+export type ButtonVariants = Stitches.VariantProps<typeof Container>

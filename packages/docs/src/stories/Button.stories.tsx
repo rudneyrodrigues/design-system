@@ -39,6 +39,16 @@ const meta: Meta<typeof Button> = {
       },
       defaultValue: false,
     },
+    leftIcon: {
+      table: {
+        disable: true,
+      },
+    },
+    rightIcon: {
+      table: {
+        disable: true,
+      },
+    },
     css: {
       table: {
         disable: true,
@@ -82,13 +92,8 @@ export const Disabled: StoryObj<ButtonProps> = {
 export const WithIcon: StoryObj<ButtonProps> = {
   args: {
     variant: 'primary',
-
-    children: (
-      <>
-        Next step
-        <ArrowRight weight="bold" />
-      </>
-    ),
+    children: 'Next page',
+    rightIcon: <ArrowRight weight="bold" />,
   },
 
   argTypes: {
