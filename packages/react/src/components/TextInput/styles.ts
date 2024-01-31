@@ -1,6 +1,7 @@
 import { styled } from '../../styles'
 
 export const TextInputContainer = styled('div', {
+  position: 'relative',
   backgroundColor: '$zinc900',
   width: '100%',
   height: '$12',
@@ -10,7 +11,7 @@ export const TextInputContainer = styled('div', {
   border: '2px solid $zinc900',
 
   display: 'flex',
-  padding: '0 $4',
+  // padding: '0 $4',
   alignItems: 'center',
 
   transition: 'all 0.2s ease-in-out',
@@ -27,6 +28,7 @@ export const TextInputContainer = styled('div', {
 
 export const Prefix = styled('label', {
   fontFamily: '$default',
+  marginLeft: '$4',
   fontSize: '$sm',
   color: '$zinc300',
   fontWeight: '$regular',
@@ -44,6 +46,9 @@ export const Input = styled('input', {
   width: '100%',
   height: '100%',
   outline: 'none',
+  padding: '0 $4',
+
+  // verify if prefix exists and add padding
 
   '::placeholder': {
     color: '$zinc300',
@@ -55,5 +60,18 @@ export const Input = styled('input', {
 
   '&:disabled': {
     cursor: 'not-allowed',
+  },
+
+  variants: {
+    withPrefix: {
+      true: {
+        paddingLeft: 0,
+        borderRadius: '0 $sm $sm 0',
+      },
+    },
+  },
+
+  defaultVariants: {
+    withPrefix: false,
   },
 })

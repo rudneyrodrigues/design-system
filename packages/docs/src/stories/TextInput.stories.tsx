@@ -9,7 +9,7 @@ const meta: Meta<typeof TextInput> = {
     disabled: false,
     id: 'text-input',
     placeholder: '',
-    autoComplete: 'off',
+    // autoComplete: 'off',
   },
 
   argTypes: {

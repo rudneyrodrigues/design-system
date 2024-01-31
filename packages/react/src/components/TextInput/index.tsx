@@ -11,7 +11,7 @@ export function TextInput({ prefix, ...props }: TextInputProps) {
     <TextInputContainer>
       {!!prefix && <Prefix htmlFor={props.id}>{prefix}</Prefix>}
 
-      <Input {...props} />
+      <Input withPrefix={!!prefix} {...props} />
     </TextInputContainer>
   )
 }
