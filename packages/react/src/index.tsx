@@ -9,3 +9,5 @@ export * from './components/Button'
 export * from './components/Checkbox'
 export * from './components/TextArea'
 export * from './components/TextInput'
+
+export * from './components/MultiStep'
