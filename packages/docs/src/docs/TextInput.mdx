@@ -1,0 +1,23 @@
+import { Meta, Story, Canvas } from '@storybook/blocks'
+
+import * as TextInputStories from '../stories/TextInput.stories'
+
+<Meta of={TextInputStories} />
+
+# TextInput
+
+O componente de `TextInput` é utilizado para entrada de texto.
+
+<Canvas of={TextInputStories.Base} />
+
+## Prefix
+
+Você pode adicionar um prefixo ao `TextInput` para indicar a unidade de medida ou o tipo de dado que será inserido.
+
+<Canvas of={TextInputStories.WithPrefix} />
+
+## Disabled
+
+Você pode desabilitar o `TextInput` para que ele não possa ser editado.
+
+<Canvas of={TextInputStories.Disabled} />

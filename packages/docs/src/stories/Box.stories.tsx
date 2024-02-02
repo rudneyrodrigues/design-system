@@ -29,7 +29,7 @@ const meta: Meta<typeof Box> = {
 
 export default meta
 
-export const Primary: StoryObj<BoxProps> = {
+export const Base: StoryObj<BoxProps> = {
   args: {
     css: {
       width: '30rem',

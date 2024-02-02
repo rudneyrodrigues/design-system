@@ -1,0 +1,35 @@
+import { Meta, Story, Canvas } from '@storybook/blocks'
+
+import * as ButtonStories from '../stories/Button.stories'
+
+<Meta of={ButtonStories} />
+
+# Button
+
+O componente de `Button` é utilizado para interações do usuário. Ele pode ser utilizado para ações como salvar, enviar, deletar, etc.
+
+<Canvas of={ButtonStories.Primary} />
+
+## Variantes
+
+O `Button` possui 4 variantes: `primary`, `secondary`, `ghost` e `outline`.
+
+### Primary
+
+O botão `primary` é utilizado para ações principais, como salvar, enviar, etc.
+
+<Canvas of={ButtonStories.Primary} />
+
+### Secondary
+
+O botão `secondary` é utilizado para ações secundárias, como cancelar, voltar, etc.
+
+<Canvas of={ButtonStories.Secondary} />
+
+### Ghost
+
+<Canvas of={ButtonStories.Ghost} />
+
+### Outline
+
+<Canvas of={ButtonStories.Outline} />

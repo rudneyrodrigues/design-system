@@ -1,0 +1,15 @@
+import { Meta, Story, Canvas } from '@storybook/blocks'
+
+import * as AvatarStories from '../stories/Avatar.stories'
+
+<Meta of={AvatarStories} />
+
+# Avatar
+
+O componente de `Avatar` é utilizado para representar uma pessoa ou entidade. Ele pode ser utilizado para representar um usuário, um contato, um grupo, entre outros.
+
+<Canvas of={AvatarStories.Default} />
+
+Caso a imagem do avatar não esteja disponível, o componente pode exibir um ícone padrão.
+
+<Canvas of={AvatarStories.WithCallback} />
