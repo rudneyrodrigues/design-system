@@ -38,3 +38,5 @@ export const TextArea = styled('textarea', {
 })
 
 export type TextAreaProps = Stitches.VariantProps<typeof TextArea>
+
+TextArea.displayName = 'TextArea'

@@ -38,3 +38,5 @@ export const Text = styled('p', {
 })
 
 export type TextProps = Stitches.VariantProps<typeof Text>
+
+Text.displayName = 'Text'

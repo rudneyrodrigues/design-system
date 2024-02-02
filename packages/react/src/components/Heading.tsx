@@ -33,3 +33,5 @@ export const Heading = styled('h2', {
 })
 
 export type HeadingProps = Stitches.VariantProps<typeof Heading>
+
+Heading.displayName = 'Heading'

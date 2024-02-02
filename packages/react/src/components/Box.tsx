@@ -11,3 +11,5 @@ export const Box = styled('div', {
 })
 
 export type BoxProps = Stitches.VariantProps<typeof Box>
+
+Box.displayName = 'Box'
