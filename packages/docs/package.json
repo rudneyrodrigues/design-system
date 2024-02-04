@@ -15,13 +15,13 @@
     "@orion-ui/react": "*",
     "@orion-ui/tokens": "*",
     "@phosphor-icons/react": "^2.0.15",
-    "@storybook/addon-docs": "^7.6.12",
     "polished": "^4.2.2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
   "devDependencies": {
     "@orion-ui/eslint-config": "*",
+    "@storybook/addon-docs": "^7.6.12",
     "@storybook/addon-essentials": "^7.6.10",
     "@storybook/addon-interactions": "^7.6.10",
     "@storybook/addon-links": "^7.6.10",
