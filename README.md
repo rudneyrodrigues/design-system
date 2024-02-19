@@ -1,23 +1,23 @@
 # Design System
 
-Omni UI é uma coleção de componentes reutilizáveis ​​e padrões claros para construir qualquer aplicação.
+Orion UI é uma coleção de componentes reutilizáveis ​​e padrões claros para construir qualquer aplicação.
 
 ## ⭐ Stacks
 
-- [ ] Stitches
-- [ ] Typescript
+- [x] Stitches
+- [x] Typescript
 
 ## 🔖 Componentes para o Design System
 
-- [ ] Text
-- [ ] Heading
-- [ ] Box / Card
-- [ ] Button
-- [ ] TextInput
-- [ ] TextArea
-- [ ] Checkbox
-- [ ] Avatar
-- [ ] MultiStep
+- [x] Text
+- [x] Heading
+- [x] Box / Card
+- [x] Button
+- [x] TextInput
+- [x] TextArea
+- [x] Checkbox
+- [x] Avatar
+- [x] MultiStep
 
 ## Contate-me em:
 [![Linkedin](https://img.shields.io/badge/Linkedin-2867b2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/rudneyrodrigues/)
