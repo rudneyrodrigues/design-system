@@ -23,6 +23,11 @@ const preview: Preview = {
         },
       ],
     },
+    options: {
+      storySort: {
+        order: ['Docs', 'Layout', 'Form', 'Data Display', 'Typography']
+      },
+    },
   },
 };
 
