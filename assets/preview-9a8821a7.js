@@ -1,0 +1,1 @@
+import{t as a}from"./chunk-EIRT5I3Z-a2c0b74c.js";const e={parameters:{layout:"centered",actions:{argTypesRegex:"^on[A-Z].*"},controls:{matchers:{color:/(background|color)$/i,date:/Date$/i}},docs:{theme:a.dark},backgrounds:{default:"dark",values:[{name:"dark",value:"#09090A"}]},options:{storySort:{order:["Docs","Layout","Form","Data Display","Typography"]}}}};export{e as default};

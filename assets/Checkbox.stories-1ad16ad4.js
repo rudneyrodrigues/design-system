@@ -1,0 +1,5 @@
+import{j as r}from"./jsx-runtime-ffb262ed.js";import{C as n,B as m,T as p}from"./index-2a0b04dd.js";const u={title:"Form/Checkbox",component:n,args:{disabled:!1,id:"checkbox"},argTypes:{disabled:{control:"boolean",defaultValue:!1},id:{table:{disable:!0}}},decorators:[i=>r.jsxs(m,{css:{gap:"$2",width:"300px",padding:"$10",display:"flex",alignItems:"center",justifyContent:"center"},children:[i(),r.jsx(p,{as:"label",size:"sm",htmlFor:"checkbox",children:"Aceito os termos de uso"})]})]},e={},s={args:{disabled:!0}};var a,o,t;e.parameters={...e.parameters,docs:{...(a=e.parameters)==null?void 0:a.docs,source:{originalSource:"{}",...(t=(o=e.parameters)==null?void 0:o.docs)==null?void 0:t.source}}};var c,d,l;s.parameters={...s.parameters,docs:{...(c=s.parameters)==null?void 0:c.docs,source:{originalSource:`{
+  args: {
+    disabled: true
+  }
+}`,...(l=(d=s.parameters)==null?void 0:d.docs)==null?void 0:l.source}}};const b=["Base","Disabled"],f=Object.freeze(Object.defineProperty({__proto__:null,Base:e,Disabled:s,__namedExportsOrder:b,default:u},Symbol.toStringTag,{value:"Module"}));export{e as B,f as C};

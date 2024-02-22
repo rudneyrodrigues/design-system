@@ -1,0 +1,5 @@
+import{j as t}from"./jsx-runtime-ffb262ed.js";import{M as r,C as s}from"./index-a389022d.js";import{M as p,B as m,F as a}from"./MultiStep.stories-ec3d686d.js";import{u as n}from"./index-a1cf9e47.js";import"./index-76fb7be0.js";import"./_commonjsHelpers-de833af9.js";import"./iframe-bbaee083.js";import"../sb-preview/runtime.js";import"./chunk-EIRT5I3Z-a2c0b74c.js";import"./index-d3ea75b5.js";import"./index-11d98b33.js";import"./extends-98964cd2.js";import"./index-8fd8397b.js";import"./index-356e4a49.js";import"./index-2a0b04dd.js";function i(o){const e=Object.assign({h1:"h1",p:"p",code:"code"},n(),o.components);return t.jsxs(t.Fragment,{children:[t.jsx(r,{of:p}),`
+`,t.jsx(e.h1,{id:"multistep",children:"MultiStep"}),`
+`,t.jsxs(e.p,{children:["O componente de ",t.jsx(e.code,{children:"MultiStep"})," é utilizado para guiar o usuário por um processo de múltiplas etapas."]}),`
+`,t.jsx(s,{of:m}),`
+`,t.jsx(s,{of:a})]})}function F(o={}){const{wrapper:e}=Object.assign({},n(),o.components);return e?t.jsx(e,Object.assign({},o,{children:t.jsx(i,o)})):i(o)}export{F as default};

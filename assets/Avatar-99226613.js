@@ -1,0 +1,6 @@
+import{j as o}from"./jsx-runtime-ffb262ed.js";import{M as s,C as r}from"./index-a389022d.js";import{A as i,D as m,W as p}from"./Avatar.stories-5a359753.js";import{u as n}from"./index-a1cf9e47.js";import"./index-76fb7be0.js";import"./_commonjsHelpers-de833af9.js";import"./iframe-bbaee083.js";import"../sb-preview/runtime.js";import"./chunk-EIRT5I3Z-a2c0b74c.js";import"./index-d3ea75b5.js";import"./index-11d98b33.js";import"./extends-98964cd2.js";import"./index-8fd8397b.js";import"./index-356e4a49.js";import"./index-2a0b04dd.js";function a(e){const t=Object.assign({h1:"h1",p:"p",code:"code"},n(),e.components);return o.jsxs(o.Fragment,{children:[o.jsx(s,{of:i}),`
+`,o.jsx(t.h1,{id:"avatar",children:"Avatar"}),`
+`,o.jsxs(t.p,{children:["O componente de ",o.jsx(t.code,{children:"Avatar"})," é utilizado para representar uma pessoa ou entidade. Ele pode ser utilizado para representar um usuário, um contato, um grupo, entre outros."]}),`
+`,o.jsx(r,{of:m}),`
+`,o.jsx(t.p,{children:"Caso a imagem do avatar não esteja disponível, o componente pode exibir um ícone padrão."}),`
+`,o.jsx(r,{of:p})]})}function O(e={}){const{wrapper:t}=Object.assign({},n(),e.components);return t?o.jsx(t,Object.assign({},e,{children:o.jsx(a,e)})):a(e)}export{O as default};
