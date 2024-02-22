@@ -1,5 +1,5 @@
 import type { Meta, StoryObj } from '@storybook/react'
-import { Box, Text, TextInput, TextInputProps } from '@orion-ui/react'
+import { Box, Text, TextInput, TextInputProps } from '@ui-orion/react'
 
 const meta: Meta<typeof TextInput> = {
   title: 'Form/Text Input',

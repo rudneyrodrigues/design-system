@@ -1,5 +1,5 @@
 import type { Meta, StoryObj } from '@storybook/react'
-import { Box, MultiStep, MultiStepProps } from '@orion-ui/react'
+import { Box, MultiStep, MultiStepProps } from '@ui-orion/react'
 
 const meta: Meta<typeof MultiStep> = {
   title: 'Form/Multi Step',

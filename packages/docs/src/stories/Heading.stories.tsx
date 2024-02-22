@@ -1,5 +1,5 @@
 import type { Meta, StoryObj } from '@storybook/react'
-import { Heading, type HeadingProps } from '@orion-ui/react'
+import { Heading, type HeadingProps } from '@ui-orion/react'
 
 const meta: Meta<typeof Heading> = {
   title: 'Typography/Heading',

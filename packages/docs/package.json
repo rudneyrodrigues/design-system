@@ -1,5 +1,5 @@
 {
-  "name": "@orion-ui/docs",
+  "name": "@ui-orion/docs",
   "version": "1.0.0",
   "type": "module",
   "license": "MIT",
@@ -13,8 +13,8 @@
     "deploy-storybook": "storybook-to-ghpages"
   },
   "dependencies": {
-    "@orion-ui/react": "*",
-    "@orion-ui/tokens": "*",
+    "@ui-orion/react": "*",
+    "@ui-orion/tokens": "*",
     "@phosphor-icons/react": "^2.0.15",
     "@storybook/addon-a11y": "^7.6.16",
     "polished": "^4.2.2",
@@ -22,7 +22,7 @@
     "react-dom": "^18.2.0"
   },
   "devDependencies": {
-    "@orion-ui/eslint-config": "*",
+    "@ui-orion/eslint-config": "*",
     "@storybook/addon-docs": "^7.6.16",
     "@storybook/addon-essentials": "^7.6.16",
     "@storybook/addon-interactions": "^7.6.16",

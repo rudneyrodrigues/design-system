@@ -1,5 +1,5 @@
 import { ArrowRight } from '@phosphor-icons/react'
-import { Button, ButtonProps } from '@orion-ui/react'
+import { Button, ButtonProps } from '@ui-orion/react'
 import type { Meta, StoryObj } from '@storybook/react'
 
 const meta: Meta<typeof Button> = {

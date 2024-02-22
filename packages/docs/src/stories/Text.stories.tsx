@@ -1,4 +1,4 @@
-import { Text, type TextProps } from '@orion-ui/react'
+import { Text, type TextProps } from '@ui-orion/react'
 import type { Meta, StoryObj } from '@storybook/react'
 
 const meta: Meta<typeof Text> = {

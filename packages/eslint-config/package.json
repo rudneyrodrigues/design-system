@@ -1,5 +1,5 @@
 {
-  "name": "@orion-ui/eslint-config",
+  "name": "@ui-orion/eslint-config",
   "license": "MIT",
   "private": true,
   "main": "index.js",

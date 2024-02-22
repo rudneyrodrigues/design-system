@@ -1,4 +1,4 @@
-import { Avatar, AvatarProps } from '@orion-ui/react'
+import { Avatar, AvatarProps } from '@ui-orion/react'
 import type { Meta, StoryObj } from '@storybook/react'
 
 const meta: Meta<typeof Avatar> = {

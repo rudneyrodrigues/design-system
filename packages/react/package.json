@@ -1,5 +1,5 @@
 {
-  "name": "@orion-ui/react",
+  "name": "@ui-orion/react",
   "version": "1.0.0",
   "description": "",
   "main": "./dist/index.js",
@@ -14,9 +14,9 @@
   "author": "",
   "license": "MIT",
   "devDependencies": {
-    "@orion-ui/eslint-config": "*",
-    "@orion-ui/tokens": "*",
-    "@orion-ui/ts-config": "*",
+    "@ui-orion/eslint-config": "*",
+    "@ui-orion/tokens": "*",
+    "@ui-orion/ts-config": "*",
     "@types/react": "^18.2.48",
     "@types/react-dom": "^18.2.18",
     "react": "^18.2.0",

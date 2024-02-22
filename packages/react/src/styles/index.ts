@@ -7,7 +7,7 @@ import {
   fontSizes,
   fontWeights,
   lineHeights,
-} from '@orion-ui/tokens'
+} from '@ui-orion/tokens'
 
 export const {
   css,

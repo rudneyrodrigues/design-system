@@ -1,4 +1,4 @@
 {
-  "extends": "@orion-ui/ts-config/base.json",
+  "extends": "@ui-orion/ts-config/base.json",
   "include": ["src"],
 }

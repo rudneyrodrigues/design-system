@@ -1,4 +1,4 @@
-import { colors } from '@orion-ui/tokens'
+import { colors } from '@ui-orion/tokens'
 import { getContrast } from 'polished'
 
 export function ColorsGrid() {

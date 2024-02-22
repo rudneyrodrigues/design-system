@@ -1,4 +1,4 @@
-import { Box, Text, type BoxProps } from '@orion-ui/react'
+import { Box, Text, type BoxProps } from '@ui-orion/react'
 import type { Meta, StoryObj } from '@storybook/react'
 
 const meta: Meta<typeof Box> = {

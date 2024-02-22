@@ -1,5 +1,5 @@
 import type { Meta, StoryObj } from '@storybook/react'
-import { Box, Text, Checkbox, CheckboxProps } from '@orion-ui/react'
+import { Box, Text, Checkbox, CheckboxProps } from '@ui-orion/react'
 
 const meta: Meta<typeof Checkbox> = {
   title: 'Form/Checkbox',

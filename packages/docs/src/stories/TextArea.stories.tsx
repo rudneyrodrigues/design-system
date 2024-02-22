@@ -1,5 +1,5 @@
 import type { Meta, StoryObj } from '@storybook/react'
-import { Box, Text, TextArea, TextAreaProps } from '@orion-ui/react'
+import { Box, Text, TextArea, TextAreaProps } from '@ui-orion/react'
 
 const meta: Meta<typeof TextArea> = {
   title: 'Form/Text Area',
